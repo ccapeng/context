@@ -1,4 +1,4 @@
-# Context in Djanog
+# Context in Django template
 
 Django is python web application framework.
 - Battery included : it's quick to have your web page prototype ready, since all functions include.
@@ -7,7 +7,7 @@ Django is python web application framework.
 - Quick implementation in Server side processing: use `class` to implement.
 	- It's wrap all functions already.
 	- It still open the flexibility by using "context".
-	
+	- It's a dictionary mapping template variable name.
 	- To get it :
 	```context = super(BookView, self).get_context_data(**kwargs)```
 	
@@ -16,4 +16,5 @@ Django is python web application framework.
 			
 	- So, it's like setting session variable.
 			
-
+- RequestContext  
+    
